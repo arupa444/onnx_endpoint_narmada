@@ -15,6 +15,7 @@ response = client.models.generate_content(
     }
 )
 
+
 print("\n=== ANSWER ===\n")
 print(response.text)
 
